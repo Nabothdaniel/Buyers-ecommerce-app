@@ -13,7 +13,7 @@ import { Button } from "./Button";
             <div className="hero-right md:ml-5">
                 <h1 className="text-2xl font-bold">Find Your Perfect Product</h1>
                 <p className="md:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, exercitationem. Perferendis, quisquam repellat! Exercitationem, ipsa!</p>
-             <Button path='/shop' value='Shop Now' width='auto'/>
+             <Button path='/shop' value='Shop Now' btnClass='w-auto btn hover:bg-cyan-400  duration-200'/>
             </div>
          </div>
         </section>

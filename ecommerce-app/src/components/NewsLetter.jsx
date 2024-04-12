@@ -1,12 +1,12 @@
 import React,{useState} from'react'
 import { Button } from './Button';
+import Input from './Input';
 
 export const NewsLetter = () => {
     const [letterVal,setLetterVal] = useState('');
-    const handleNewsInput = (val)=>{
-       const response = setLetterVal(val);
-        console.log(response);
 
+    const handleNewsInput = (event)=>{
+       setLetterVal(event.target.value);
     }
   return (
     <section className='md:px-24 px-5 md:py-16 py-4  bg-black text-white'>
@@ -16,8 +16,8 @@ export const NewsLetter = () => {
                 <p className='md:w-1/2 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate est nihil optio hic quidem accusantium ad ducimus porro expedita dolor.</p>
             </div>
             <div className='w-full md:w-auto'>
-                <input type="text" value={letterVal} onChange={(e)=> handleNewsInput(e.target.value)} className=' border-none py-2   px-0 md:px-3 my-2 w-full' />
-                <Button value='Subscribe' width='full'/>
+                <Input inputType='text' value={letterVal} inputChange={handleNewsInput} inputClass='border-none py-2   px-0 md:px-3 my-2 w-full outline-none'/>
+                <Button value='Subscribe' btnClass='w-full btn hover:bg-cyan-400 text-white duration-200'/>
 
             </div>
          </div>

@@ -28,7 +28,7 @@ const Contact = () => {
           <div className="flex flex-col gap-8 md:gap-12">
            {
             contactCard.map(card =>(
-              <div className="border border-gray-200 py-3 px-4 w-full md:w-1/2">
+              <div className="border border-gray-200 py-3 px-4 w-full md:w-1/2" key={card.city}>
               <h1 className="text-[1.2rem] font-semibold text-cyan-400">{card.city}</h1>
               <p className='text-gray-500'>{card.address}</p>
             </div>
