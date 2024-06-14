@@ -9,6 +9,7 @@ import Shop from './pages/Shop.jsx'
 import {Catalogue} from './pages/Catalogue.jsx'
 import NewArrivals from './pages/NewArrivals.jsx'
 import Login from './pages/Login'
+import SignUp from './pages/SignUp.jsx'
 import Cart from './pages/Cart.jsx'
 
 const router = createBrowserRouter([
@@ -43,6 +44,14 @@ const router = createBrowserRouter([
       {
         path:'/cart',
         element:<Cart/>
+      },
+      {
+        path:'/login',
+        element:<Login/>
+      },
+      {
+        path:'/signup',
+        element:<SignUp/>
       }
     ]
   }

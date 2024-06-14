@@ -1,9 +1,10 @@
 import React from 'react'
+import { PagesTag } from '../components/PagesTag'
 
 const NewArrivals = () => {
   return (
     <div>
-      new Arrivals here
+   <PagesTag desc='New-Arrivals'/>
     </div>
   )
 }

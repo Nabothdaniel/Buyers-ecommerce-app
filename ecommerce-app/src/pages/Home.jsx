@@ -1,16 +1,16 @@
 import React from 'react'
-import { HeroSection } from "../components/HeroSection"
 import {Services} from '../components/Services'
 import { Categories } from "../components/Categories"
 import {NewsLetter} from '../components/NewsLetter'
+import Banner from '../components/Banner'
 
 export const Home = ()=>{
     return(
     <>
-        <HeroSection/>
+        <Banner/>
         <Services/>
         <Categories/>
-        <NewsLetter/>
+        <NewsLetter width='full'/>
     </>
     )
 }

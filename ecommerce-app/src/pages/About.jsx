@@ -5,6 +5,7 @@ import TeamImg1 from '../assets/Pedro.jpg'
 import TeamImg2 from '../assets/Trovalds.jpg'
 
 
+
 export const About = () => {
   const card = [
     {
@@ -32,7 +33,7 @@ export const About = () => {
       <div className="mt-5">
         <div className=" grid grid-cols-1 md:grid-cols-2 py-2 md:px-24 px-5 gap-5">
           <div className="md:w-full w-auto h-auto md:h-full">
-            <img src={AboutImg} className='object-contain md:object-cover  w-[100%] h-full md:h-[60%]' alt=" picture of davido wearing a blue suit" sizes="" srcset="" />
+            <img src={AboutImg} className='object-contain bg-position md:object-cover  w-[100%] h-full md:h-[60%]' alt=" picture of davido wearing a blue suit" sizes="" srcset="" />
           </div>
           <div className=''>
             <h1 className=" text-2xl font-semibold ml-2 md:ml-10">How We started</h1>

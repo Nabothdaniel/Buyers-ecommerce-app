@@ -1,22 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import man4 from '../assets/man4.jpg'
 
-const Card = ({cardesc}) => {
+const Card = ({ product }) => {
   return (
-    <div className='px-3 py-2 rounded-none shadow-sm'>
-      <h1 className='font-semibold text-center mb-2'>{cardesc.title}</h1>
-     <div className="flex justify-between">
-        <p className='text-cyan'>{cardesc.cartegory1}</p>
-        <p>{cardesc.figure1}</p>
-     </div>
-
-     <div className="flex justify-between">
-        <p className='text-cyan'>{cardesc.cartegory2}</p>
-        <p>{cardesc.figure2}</p>
-     </div>
-     <div className="flex justify-between">
-        <p className='text-cyan'>{cardesc.cartegory3}</p>
-        <p>{cardesc.figure3}</p>
-     </div>
+    <div>
+      {
+        <div>
+          <Link to={`/product/${product.id}`}>
+          <div className="bg-cover h-[20rem] md:h-full w-[30rem] md:w-44 text-center">
+          <img src={product.img} className='w-[100%] h-full object-cover mx-5 my-4' alt="" />
+          </div>
+          
+          <div className="inline-flex justify-between gap-24 ml-3 w-full">
+            <span className='text-black font-bold'>{product.title}</span>
+            <span className="text-gray-600 justify-start"> ${product.price}</span>
+          </div>
+          </Link>
+          </div>
+      }
     </div>
   )
 }
