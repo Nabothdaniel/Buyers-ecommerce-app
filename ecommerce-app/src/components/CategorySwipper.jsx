@@ -23,7 +23,7 @@ import { Pagination } from 'swiper/modules';
         <SwiperSlide>Slide 9</SwiperSlide>
  */
 
-const Swiper = (children)=>{
+const CategorySwiper = (children)=>{
   return (
     <>
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
@@ -35,4 +35,6 @@ const Swiper = (children)=>{
   );
 }
 
-export default Swiper;
+export default CategorySwiper;
+
+
