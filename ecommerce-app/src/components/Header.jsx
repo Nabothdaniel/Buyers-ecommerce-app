@@ -4,7 +4,7 @@ import { BiSearch, BiCart, BiHeart, BiCrosshair, BiUser, BiHome, BiStar } from '
 import { FaPerson, FaBars, FaCross } from 'react-icons/fa6'
 import { Link } from 'react-router-dom';
 import MobileNav from "./MobileNav";
-import { Button } from "./Button";
+import  Button  from "./Button";
 
 
 export const Header = () => {
@@ -25,7 +25,7 @@ export const Header = () => {
     }
     return (
         <>
-            <header className=" flex justify-between  flex-row relative md:text-center py-4 m-0 px-10  top:0 left-0 right-0 ">
+            <header className=" flex justify-between items-center flex-row relative md:text-center py-4 m-0 px-10  top:0 left-0 right-0 ">
                 <div className=" bg-white flex justify-center items-center gap-3 rounded-md px-4 py-3 md:px-2 md:py-3 ">
                     <Input placeHolder='search' inputType='text' value={headerInput} inputChange={searchChange} inputClass='outline-none w-[80%] hidden md:block' />
                     <BiSearch className="" />

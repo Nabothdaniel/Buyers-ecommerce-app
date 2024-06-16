@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { PagesTag } from '../components/PagesTag'
 import { BiSelectMultiple } from 'react-icons/bi'
 import { FaFilter } from 'react-icons/fa6';
-import { Button } from '../components/Button';
 import Collections from '../components/Collections';
 import Products from '../components/Products';
 
