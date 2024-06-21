@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, } from "react";
+import { useSelector,useDispatch } from "react-redux";
 import Input from "./Input";
-import { BiSearch, BiCart, BiHeart, BiCrosshair, BiUser, BiHome, BiStar } from 'react-icons/bi'
-import { FaPerson, FaBars, FaCross } from 'react-icons/fa6'
+import { BiSearch, BiCart, BiHeart, BiUser, BiLeftArrowCircle } from 'react-icons/bi'
+import {  FaArrowRightFromBracket,FaAlignLeft } from 'react-icons/fa6'
 import { Link } from 'react-router-dom';
 import MobileNav from "./MobileNav";
 import  Button  from "./Button";
@@ -23,33 +24,32 @@ export const Header = () => {
         setInputHeader(e.target.value)
 
     }
+    const cartItem = useSelector((state)=> state.cartItem.value);
+    console.log(cartItem);
     return (
         <>
-            <header className=" flex justify-between items-center flex-row relative md:text-center py-4 m-0 px-10  top:0 left-0 right-0 ">
-                <div className=" bg-white flex justify-center items-center gap-3 rounded-md px-4 py-3 md:px-2 md:py-3 ">
+            <header className="p-5 md:px-16 md:py-5  flex justify-between item-center">
+            <div className=" bg-white inline-flex justify-center items-center gap-3 rounded-md px-4 py-3 md:px-2 md:py-3 ">
                     <Input placeHolder='search' inputType='text' value={headerInput} inputChange={searchChange} inputClass='outline-none w-[80%] hidden md:block' />
                     <BiSearch className="" />
                 </div>
-                <div className=" text-center">
+                
                     <h1 className="text-3xl font-bold text-center"><Link to='/'>Buyers</Link></h1>
-                </div>
-                <div className="md:flex justify-between gap-20 items-center hidden">
-                    <div className="flex justify-between gap-10">
-                    <BiUser />
-                    <BiHeart />
-                    <Link to='cart'> <BiCart /></Link>
-                    </div>
-                    {/* call to action buttons */}
+                
+                <div className="md:inline-flex justify-between gap-5 items-center hidden">
+                    <Link to='cart' className="inline-flex items-center gap-1 relative"> <BiCart /> <p className="absolute top-3">{cartItem}</p></Link>
+                    <Link to='/signup'>
+                        <BiLeftArrowCircle/>
+                    </Link>
+                    <Link to='/login'>
+                    <FaArrowRightFromBracket/>
+                    </Link>
                     
-                    <div className="hidden  md:flex justify-between   md:gap-5">
-                        <Button path='/signup' value='Signup' btnClass='px-3 py-2 bg-cyan-400 text-white rounded-md font-bold' />
-                        <Button path='/login' value='Login' btnClass='px-3 py-2 bg-cyan-400 text-white rounded-md font-bold' />
-                    </div>
                 </div>
                 
 
-                <div className="bar">
-                    <FaBars className="w-5 h-5 md:hidden" onClick={checkMenu} />
+                <div className="md:hidden mt-2 cursor-pointer ">
+                    <FaAlignLeft className="w-6 h-6 " onClick={checkMenu} />
                 </div>
             </header>
             {isOpen ? <MobileNav closeMenu={CloseMenu} /> : ''}

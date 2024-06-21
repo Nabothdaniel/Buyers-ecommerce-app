@@ -5,19 +5,19 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Button from './Button';
 
-const CategorySwiper = ({ title, body, img,id}) => (
+const CategorySwiper = ({ title, body, img, id }) => (
   <div className='my-category-swiper-container'>
 
     <Swiper
-      spaceBetween={20} // Add spacing between slides (20px)
-      slidesPerView={1} // Display only one slide at a time (might be redundant depending on usage)
-      pagination={{ clickable: true }} // Enable clickable pagination (might be redundant)
+      spaceBetween={20}
+      slidesPerView={1} 
+      pagination={{ clickable: true }} 
       modules={[Pagination]}
       className="my-category-swiper "
     >
       <SwiperSlide>
         <div className='flex items-end w-80 h-[28rem] rounded-md overflow-hidden group relative'>
-          <img src={img} alt="" className=' overflow-contain  -z-10 brightness-[60%] group-hover:scale-125 group-hover:brightness-90 duration-200 ' />
+          <img src={img} alt="" className=' overflow-contain  -z-10 brightness-[60%] group-hover:scale-125 group-hover:brightness-90 duration-200 h-full' />
           <div className=' text-white p-5 flex flex-col z-[9999] absolute'>
             <h1 className='font-bold text-2xl'>{title}</h1>
             <p>{body}</p>
