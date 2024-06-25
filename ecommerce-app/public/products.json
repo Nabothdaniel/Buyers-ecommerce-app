@@ -1,3 +1,5 @@
+
+
 [
     {
         "id":1,
@@ -5,7 +7,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"clothing",
-        "image":"/assets/man1.jpg"
+        "image":"assets/man1.jpg"
     },
     {
         "id":2,
@@ -13,7 +15,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":10,
         "category":"clothing",
-        "image":"/assets/man2.jpg"
+        "image":"assets/man2.jpg"
     },
     {
         "id":3,
@@ -21,7 +23,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":15,
         "category":"clothings",
-        "image":"/assets/man3.jpg"
+        "image":"assets/man3.jpg"
     },
     {
         "id":4,
@@ -29,7 +31,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":18,
         "category":"clothings",
-        "image":"/assets/man4.jpg"
+        "image":"assets/man4.jpg"
     },
     {
         "id":5,
@@ -37,15 +39,15 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"bestseller",
-        "image":"/assets/man5.jpg"
+        "image":"assets/man5.jpg"
     },
     {
         "id":6,
         "title":"shoes",
         "desc":"lorem ipsum dolor sit amet adsipising elit",
-        "price":25,
+        "price":75,
         "category":"bestseller",
-        "image":"/assets/man5.jpg"
+        "image":"assets/man6.jpg"
     },
     {
         "id":7,
@@ -53,15 +55,15 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"bestseller",
-        "image":"/assets/man5.jpg"
+        "image":"assets/man5.jpg"
     },
     {
         "id":8,
         "title":"shoes",
         "desc":"lorem ipsum dolor sit amet adsipising elit",
-        "price":25,
+        "price":85,
         "category":"bestseller",
-        "image":"/assets/man5.jpg"
+        "image":"assets/man5.jpg"
     },
     {
         "id":9,
@@ -69,22 +71,22 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"bestseller",
-        "image":"/assets/man5.jpg"
+        "image":"assets/man5.jpg"
     },
     {
         "id":10,
         "title":"shoes",
         "desc":"lorem ipsum dolor sit amet adsipising elit",
-        "price":25,
+        "price":65,
         "category":"bestseller",
-        "image":"/assets/man5.jpg"
+        "image":"assets/man5.jpg"
     },
     {
         "id":11,
         "title":"shoes",
         "desc":"lorem ipsum dolor sit amet adsipising elit",
-        "price":25,
+        "price":22,
         "category":"bestseller",
-        "image":"/assets/man5.jpg"
+        "image":"assets/man5.jpg'"
     }
 ]

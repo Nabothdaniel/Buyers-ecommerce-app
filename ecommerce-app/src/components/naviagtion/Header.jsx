@@ -1,11 +1,11 @@
 import React, { useState, } from "react";
 import { useSelector,useDispatch } from "react-redux";
-import Input from "./Input";
+import Input from "../utils/Input";
 import { BiSearch, BiCart, BiHeart, BiUser, BiLeftArrowCircle } from 'react-icons/bi'
 import {  FaArrowRightFromBracket,FaAlignLeft } from 'react-icons/fa6'
 import { Link } from 'react-router-dom';
-import MobileNav from "./MobileNav";
-import  Button  from "./Button";
+import MobileNav from "../utils/MobileNav";
+import  Button  from "../utils/Button";
 
 
 export const Header = () => {
@@ -48,7 +48,7 @@ export const Header = () => {
                 </div>
                 
 
-                <div className="md:hidden mt-2 cursor-pointer ">
+                <div className="sm:hidden md:hidden mt-2 cursor-pointer ">
                     <FaAlignLeft className="w-6 h-6 " onClick={checkMenu} />
                 </div>
             </header>

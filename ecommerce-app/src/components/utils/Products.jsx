@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
-import Card from './Card';
+
+import Card from '../card/Card';
 
 
 const Products = () => {
@@ -16,7 +17,7 @@ const Products = () => {
         fetchProducts();
     },[])
   return (
-    <div className='flex flex-col gap-5 md:flex-row flex-wrap '>
+    <div className='flex flex-col gap-5 md:flex-row flex-wrap justify-between items-center space-y-3 mb-3 '>
       {
         products.map(product =>(<Card key={product.id} product={product}/>))
       }

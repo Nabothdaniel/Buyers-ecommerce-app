@@ -1,5 +1,5 @@
 import React from 'react'
-import { PagesTag } from '../components/PagesTag'
+import { PagesTag } from '../components/naviagtion/PagesTag'
 
 const NewArrivals = () => {
   return (

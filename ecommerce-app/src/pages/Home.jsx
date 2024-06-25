@@ -1,8 +1,8 @@
 import React from 'react'
-import {Services} from '../components/Services'
-import  Categories  from "../components/Categories"
-import {NewsLetter} from '../components/NewsLetter'
-import Banner from '../components/Banner'
+import {Services} from '../components/utils/Services'
+import  Categories  from "../components/categories/Categories"
+import {NewsLetter} from '../components/utils/NewsLetter'
+import Banner from '../components/utils/Banner'
 
 export const Home = ()=>{
     return(

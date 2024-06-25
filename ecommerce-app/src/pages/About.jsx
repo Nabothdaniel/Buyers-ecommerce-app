@@ -1,5 +1,5 @@
 import React from 'react'
-import { PagesTag } from '../components/PagesTag'
+import { PagesTag } from '../components/naviagtion/PagesTag'
 import AboutImg from '../assets/img3.jpg'
 import TeamImg1 from '../assets/Pedro.jpg'
 import TeamImg2 from '../assets/Trovalds.jpg'
@@ -31,11 +31,11 @@ export const About = () => {
     <div>
       <PagesTag desc='About' />
       <div className="mt-5">
-        <div className=" grid grid-cols-1 md:grid-cols-2 py-2 md:px-24 px-5 gap-5">
+        <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 py-2 md:px-24 px-5 gap-5">
           <div className="md:w-full w-auto h-auto md:h-full">
             <img src={AboutImg} className='object-contain bg-position md:object-cover  w-[100%] h-full md:h-[60%]' alt=" picture of davido wearing a blue suit" sizes="" srcset="" />
           </div>
-          <div className=''>
+          <div className='md:flex md:flex-direction-row xl:block sm:block'>
             <h1 className=" text-2xl font-semibold ml-2 md:ml-10">How We started</h1>
             <p className=' md:px-16 px-auto py-5'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates et adipisci natus? Voluptatum, ab reprehenderit in dolorem animi error, velit repellat ducimus voluptatibus cupiditate.

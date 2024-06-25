@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import {BiStar} from 'react-icons/bi'
-import {PagesTag} from '../components/PagesTag'
+
+import { PagesTag } from '../components/naviagtion/PagesTag'
 
 const Contact = () => {
   const [contactCard, setContactCard] = useState([

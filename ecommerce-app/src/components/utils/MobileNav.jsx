@@ -2,8 +2,8 @@ import React,{useState} from 'react'
 import {FaTimes} from 'react-icons/fa'
 import { FaCodeCompare,FaShop,FaFlickr,FaGg,FaHouse, } from "react-icons/fa6";
 import { IoMdContact } from "react-icons/io";
-import {BiHome,BiStar,BiCart,BiAccessibility,} from 'react-icons/bi'
-import { Link } from 'react-router-dom';
+import {BiHome,BiStar,BiCart,BiAccessibility} from 'react-icons/bi'
+import { NavLink } from 'react-router-dom';
 
 const MobileNav = ({closeMenu}) => {
     const [mobileLinks,setMobileLinks]= useState([
@@ -46,23 +46,25 @@ const MobileNav = ({closeMenu}) => {
         },
        
     ])
+
+    const activeLink = ({isActive})=> isActive ? 'inline-flex items-center gap-3 w-full hover:bg-cyan-500 bg-cyan-400 hover:text-white text-white duration-300 py-2 px-3 rounded-md' :'inline-flex items-center gap-3 w-full hover:bg-cyan-500 hover:text-white duration-300 py-2 px-3 rounded-md'
         return (
-        <div className=" fixed z-[9999] top-0 right-0 h-[100vh] w-[50vw] bg-white pr-5 py-2 md:hidden">
+        <div className=" fixed z-[9999] top-0 right-0 h-[100vh] w-[50vw] bg-white pr-5 py-2 sm:hidden md:hidden">
             <FaTimes className=" ml-2 right-0 my-3 w-5 h-5 font-semibold cursor-pointer" onClick={closeMenu} />
 
             <ul className="my-10 p-0">
                 {
                     mobileLinks.map(singleLink =>(
               
-                <Link to={singleLink.Path} key={singleLink.id}>  <li className="inline-flex items-center gap-3 w-full hover:bg-cyan-500 hover:text-white duration-120 py-2 px-3 rounded-md"> {singleLink.icon} {singleLink.title}</li></Link>
+                <NavLink to={singleLink.Path} key={singleLink.id} className={activeLink}>  <li className='inline-flex items-center gap-3 hover:text-white '> {singleLink.icon} {singleLink.title}</li></NavLink>
                     ))
                 }             
             </ul>
 
 
-            <ul className='relative top-24 '>
+            <ul className='relative top-24 py-3 '>
                 <li>login</li>
-                <li>logout</li>
+                <li className='my-3'>logout</li>
             </ul>
 
         </div>

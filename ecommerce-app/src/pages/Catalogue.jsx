@@ -1,10 +1,10 @@
 import React from 'react'
-import { PagesTag } from '../components/PagesTag'
+import { PagesTag } from '../components/naviagtion/PagesTag'
 
 export const Catalogue = () => {
   return (
     <div>
-       <PagesTag desc='Cataloguue' /> 
+       <PagesTag desc='Catalogue' /> 
     </div>
   )
 }

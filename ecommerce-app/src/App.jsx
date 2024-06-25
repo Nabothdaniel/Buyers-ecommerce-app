@@ -1,8 +1,8 @@
 import { Home } from "./pages/Home"
 import { Outlet, useLocation } from "react-router-dom"
-import { Header } from "./components/Header"
-import { Footer } from "./components/Footer"
-import { PrimaryNav } from "./components/PrimaryNav"
+import { Header } from "./components/naviagtion/Header"
+import { Footer } from "./components/naviagtion/Footer"
+import { PrimaryNav } from "./components/naviagtion/PrimaryNav"
 
 const App =()=> {
   const Location = useLocation();
