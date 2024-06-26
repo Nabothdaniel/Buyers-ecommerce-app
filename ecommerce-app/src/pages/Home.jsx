@@ -1,15 +1,15 @@
 import React from 'react'
 import {Services} from '../components/utils/Services'
-import  Categories  from "../components/categories/Categories"
 import {NewsLetter} from '../components/utils/NewsLetter'
 import Banner from '../components/utils/Banner'
+import CategorySwipper from '../components/categories/CategorySwipper'
 
 export const Home = ()=>{
     return(
     <>
         <Banner/>
         <Services/>
-        <Categories/>
+        <CategorySwipper/>
         <NewsLetter width='full'/>
     </>
     )
