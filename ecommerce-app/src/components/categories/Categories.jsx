@@ -1,10 +1,11 @@
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../utils/Button';
-import img1 from '../../assets/man1.jpg'
-import cat1 from '../../assets/child2.jpg'
-import cat2 from '../../assets/cat2.jpg'
-import cat3 from '../../assets/category.jpg'
+import img1 from '../../assets/images/man1.jpg'
+import cat1 from '../../assets/images/child2.jpg'
+import cat2 from '../../assets/images/cat2.jpg'
+import cat3 from '../../assets/images/man6.jpg'
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

@@ -1,13 +1,11 @@
-
-
-[
+[ 
     {
         "id":1,
         "title":"Hoddies",
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"clothing",
-        "image":"assets/man1.jpg"
+        "image":"../src/assets/images/man1.jpg"
     },
     {
         "id":2,
@@ -15,7 +13,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":10,
         "category":"clothing",
-        "image":"assets/man2.jpg"
+        "image":"../src/assets/images/man2.jpg"
     },
     {
         "id":3,
@@ -23,7 +21,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":15,
         "category":"clothings",
-        "image":"assets/man3.jpg"
+        "image":"../src/assets/images/cat2.jpg"
     },
     {
         "id":4,
@@ -31,7 +29,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":18,
         "category":"clothings",
-        "image":"assets/man4.jpg"
+        "image":"../src/assets/images/man4.jpg"
     },
     {
         "id":5,
@@ -39,7 +37,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"bestseller",
-        "image":"assets/man5.jpg"
+        "image":"../src/assets/images/man5.jpg"
     },
     {
         "id":6,
@@ -47,7 +45,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":75,
         "category":"bestseller",
-        "image":"assets/man6.jpg"
+        "image":"../src/assets/images/man6.jpg"
     },
     {
         "id":7,
@@ -55,7 +53,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"bestseller",
-        "image":"assets/man5.jpg"
+        "image":"../src/assets/images/cat2.jpg"
     },
     {
         "id":8,
@@ -63,7 +61,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":85,
         "category":"bestseller",
-        "image":"assets/man5.jpg"
+        "image":"../src/assets/images/man6.jpg"
     },
     {
         "id":9,
@@ -71,7 +69,7 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":25,
         "category":"bestseller",
-        "image":"assets/man5.jpg"
+        "image":"../src/assets/images/man9.jpg"
     },
     {
         "id":10,
@@ -79,14 +77,167 @@
         "desc":"lorem ipsum dolor sit amet adsipising elit",
         "price":65,
         "category":"bestseller",
-        "image":"assets/man5.jpg"
+        "image":"../src/assets/images/man8.jpg"
     },
     {
         "id":11,
         "title":"shoes",
         "desc":"lorem ipsum dolor sit amet adsipising elit",
-        "price":22,
+        "price":65,
         "category":"bestseller",
-        "image":"assets/man5.jpg'"
+        "image":"../src/assets/images/man11.jpg"
+    },
+    {
+        "id":12,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":65,
+        "category":"bestseller",
+        "image":"../src/assets/images/img12.jpg"
+    },
+    {
+        "id":13,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":45,
+        "category":"bestseller",
+        "image":"../src/assets/images/img13.jpg"
+    },
+    {
+        "id":14,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":15,
+        "category":"bestseller",
+        "image":"../src/assets/images/img14.jpg"
+    },
+    {
+        "id":15,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":65,
+        "category":"bestseller",
+        "image":"../src/assets/images/img15.jpg"
+    },
+    {
+        "id":16,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":35,
+        "category":"bestseller",
+        "image":"../src/assets/images/img16.jpg"
+    },
+    {
+        "id":17,
+        "title":"clothes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":65,
+        "category":"bestseller",
+        "image":"../src/assets/images/img17.jpg"
+    },
+    {
+        "id":18,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":65,
+        "category":"bestseller",
+        "image":"../src/assets/images/img18.jpg"
+    },
+    {
+        "id":19,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":1.99,
+        "category":"bestseller",
+        "image":"../src/assets/images/img19.jpg"
+    },
+    {
+        "id":20,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":22.8,
+        "category":"bestseller",
+        "image":"../src/assets/images/man20.jpg"
+    },
+    {
+        "id":21,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":9.99,
+        "category":"bestseller",
+        "image":"../src/assets/images/img21.jpg"
+    },
+    {
+        "id":22,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":45,
+        "category":"bestseller",
+        "image":"../src/assets/images/img30.jpg"
+    },
+    {
+        "id":23,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":12.4,
+        "category":"bestseller",
+        "image":"../src/assets/images/img23.jpg"
+    },
+    {
+        "id":24,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":72,
+        "category":"bestseller",
+        "image":"../src/assets/images/img24.jpg"
+    },
+    {
+        "id":30,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":5.4,
+        "category":"bestseller",
+        "image":"../src/assets/images/img24.jpg"
+    },
+    {
+        "id":25,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":2.28,
+        "category":"bestseller",
+        "image":"../src/assets/images/img25.jpg"
+    },
+    {
+        "id":26,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":128,
+        "category":"bestseller",
+        "image":"../src/assets/images/img26.jpg"
+    },
+    {
+        "id":27,
+        "title":"clothing",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":65,
+        "category":"bestseller",
+        "image":"../src/assets/images/img27.jpg"
+    },
+    {
+        "id":28,
+        "title":"clothes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":45,
+        "category":"bestseller",
+        "image":"../src/assets/images/img28.jpg"
+    },
+    {
+        "id":29,
+        "title":"shoes",
+        "desc":"lorem ipsum dolor sit amet adsipising elit",
+        "price":65,
+        "category":"bestseller",
+        "image":"../src/assets/images/img29.jpg"
     }
+
 ]

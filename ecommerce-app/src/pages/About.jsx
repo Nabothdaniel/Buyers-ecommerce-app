@@ -1,8 +1,8 @@
 import React from 'react'
 import { PagesTag } from '../components/naviagtion/PagesTag'
-import AboutImg from '../assets/img3.jpg'
-import TeamImg1 from '../assets/Pedro.jpg'
-import TeamImg2 from '../assets/Trovalds.jpg'
+import AboutImg from '../assets/images/img3.jpg'
+import TeamImg1 from '../assets/images/Pedro.jpg'
+import TeamImg2 from '../assets/images/Trovalds.jpg'
 
 
 
