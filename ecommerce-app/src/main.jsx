@@ -13,6 +13,8 @@ import NewArrivals from './pages/NewArrivals.jsx'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp.jsx'
 import Cart from './pages/Cart.jsx'
+import Profile from './components/userProfile/Profile.jsx'
+import UserProfile from './components/userProfile/UserProfile.jsx'
 
 const router = createBrowserRouter([
   {
@@ -55,7 +57,10 @@ const router = createBrowserRouter([
         path: '/signup',
         element: <SignUp />
       },
-
+      {
+        path:'/userprofile',
+        element:<UserProfile/>
+      }
     ]
   }
 

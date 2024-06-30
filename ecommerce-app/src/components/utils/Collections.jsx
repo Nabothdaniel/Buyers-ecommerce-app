@@ -2,7 +2,7 @@ import React from 'react'
 
 const Collections = () => {
   return (
-    <div>
+    <div className='sticky top-3'>
       <h1 className='text-2xl font-bold text-black '>Collections</h1>
 
       <ul className='cursor-pointer'>

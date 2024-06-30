@@ -37,7 +37,7 @@ export const PrimaryNav = () => {
        
     ]
     return (
-        <div className=' hidden md:flex justify-center'>
+        <div className='py-3 hidden md:flex justify-center'>
            
 
             <ul className='flex justify-between items-center gap-10 text-gray-700 '>

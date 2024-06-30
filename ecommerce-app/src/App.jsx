@@ -14,8 +14,7 @@ const App =()=> {
       <PrimaryNav/>
         {Location.pathname === '/' ?   <Home/> : <Outlet/> }
         <Footer/>
-      </div>
-      
+      </div>      
     </>
   )
 }
