@@ -8,7 +8,7 @@ const Card = ({ product }) => {
     <div className='flex flex-col  md:gap-5 md:flex-row flex-wrap justify-between items-center space-y-3 '>
       {
 
-        <Link key={id} to={`/product/${id}`} className=' bg-white rounded-xl shadow-md'>
+        <Link key={id} to={`/shop/${id}`} className=' bg-white rounded-xl shadow-md'>
           <div className=" bg-cover md:h-[20rem]  md:w-[30rem] xl:w-[20rem] ">
             <img
               src={image}

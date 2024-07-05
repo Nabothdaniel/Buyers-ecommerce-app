@@ -15,6 +15,8 @@ import SignUp from './pages/SignUp.jsx'
 import Cart from './pages/Cart.jsx'
 import Profile from './components/userProfile/Profile.jsx'
 import UserProfile from './components/userProfile/UserProfile.jsx'
+import ErrorPage from './pages/ErrorPage.jsx'
+import SingleProducts from './pages/SingleProducts.jsx'
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/shop',
         element: <Shop />
+      },
+      {
+        path:'/shop/:id',
+        element:<SingleProducts/>
       },
       {
         path: '/catalogue',

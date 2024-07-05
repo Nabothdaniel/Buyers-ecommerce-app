@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { PagesTag } from '../components/naviagtion/PagesTag'
 import AboutImg from '../assets/images/img3.jpg'
 import TeamImg1 from '../assets/images/Pedro.jpg'
