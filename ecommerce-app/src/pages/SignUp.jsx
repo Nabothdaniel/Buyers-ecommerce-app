@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import Input from '../components/utils/Input';
 import Button from '../components/button/Button'
 import { Link } from 'react-router-dom';
+import {useForm} from 'react-hook-form'
 
 import { GoogleAuthProvider } from "firebase/auth";
 

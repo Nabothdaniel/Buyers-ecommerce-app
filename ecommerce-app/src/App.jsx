@@ -4,7 +4,6 @@ import { Header } from "./components/naviagtion/Header";
 import { Footer } from "./components/naviagtion/Footer";
 import { PrimaryNav } from "./components/naviagtion/PrimaryNav";
 import {ToastContainer} from 'react-toastify';
-import { useScrollToTop } from "./hooks/useScrollToTop";
 const App =()=> {
   const Location = useLocation();
 
@@ -17,7 +16,6 @@ const App =()=> {
         <Footer/>
         <ToastContainer/>
       </div>  
-      <UseScrollToTop/>    
     </>
   )
 }
